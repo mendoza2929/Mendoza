@@ -1,0 +1,116 @@
+.quali_tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.2rem;
+    margin-right: 3.5rem;
+}
+
+.qauli_button{
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.quali_button:hover{
+    color: var(--color-primary);
+}
+
+.quali_icon{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+.quali_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.quali_title{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.qauli_subtitle{
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-light);
+}
+
+.quali_calendar{
+    font-size: 0.80rem;
+    color: var(--color-light);
+}
+
+
+.quali_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background:var(--color-bg-variant);
+    border-radius: 50%;
+}
+
+.quali_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: var(--color-primary);
+    transform:  translate(6px,-7px);
+}
+
+.quali_content {
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.quali_sections{
+    padding-left: 18rem;
+    
+}
+
+
+@media screen and (max-width:1024px){
+    .quali_data{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding-right:7rem;
+        column-gap: 1.5rem;
+    }
+
+    .quali_line,.quali_rounder{
+        display: none;
+    }
+    .quali_tabs{
+        justify-content: center;
+        gap:1.5rem;
+        
+    }
+}
+
+
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+    .quali_data{
+        grid-template-columns: 1fr;
+        margin-bottom: 1.3rem;
+        display: grid
+       
+    }
+    .quali_line,.quali_rounder{
+        display: none;
+        
+    }
+
+    .quali_sections{
+        padding-left: 6rem;
+    }
+
+    .quali_tabs{
+        padding-left: 2rem;
+    }
+   
+}
