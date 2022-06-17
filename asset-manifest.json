@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mendoza/static/css/main.ae004ff2.css",
+    "main.js": "/mendoza/static/js/main.78fe5cc9.js",
+    "static/media/proj4.png": "/mendoza/static/media/proj4.3f82308862558db50224.png",
+    "static/media/proj2.png": "/mendoza/static/media/proj2.c4f7ecac606ebf652292.png",
+    "static/media/proj3.png": "/mendoza/static/media/proj3.83716b75469a8ad0576c.png",
+    "static/media/client1.jpg": "/mendoza/static/media/client1.ea238097cdf65dab6c57.jpg",
+    "static/media/proj1.jpg": "/mendoza/static/media/proj1.b340cf9b098103ffc11d.jpg",
+    "static/media/Mendoza.pdf": "/mendoza/static/media/Mendoza.fd665d3d386d94d6c62f.pdf",
+    "index.html": "/mendoza/index.html",
+    "main.ae004ff2.css.map": "/mendoza/static/css/main.ae004ff2.css.map",
+    "main.78fe5cc9.js.map": "/mendoza/static/js/main.78fe5cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae004ff2.css",
+    "static/js/main.78fe5cc9.js"
+  ]
+}
