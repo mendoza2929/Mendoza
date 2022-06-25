@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/logo.png'
+import ME from '../../assets/riyuuu.jpg'
 import {FaAward} from 'react-icons/fa'
 import {BiUserPin} from 'react-icons/bi'
 import {AiFillFolderOpen} from 'react-icons/ai'

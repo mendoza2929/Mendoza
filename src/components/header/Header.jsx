@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me from '../../assets/logo.png'
+import Me from '../../assets/riyu.jpg'
 import HeaderSocial from './HeaderSocial'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 
