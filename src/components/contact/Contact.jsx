@@ -7,8 +7,7 @@ import {BsMessenger} from 'react-icons/bs'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
-  const [name, setName] = useState();
-
+  
   const notify = () => toast("Your message was delivered. We'll get in touch with you as soon as possible!");
   const form = useRef();
   const sendEmail = (e) => {
