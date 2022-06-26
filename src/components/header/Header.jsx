@@ -3,7 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/riyu.jpg'
 import HeaderSocial from './HeaderSocial'
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 
 
