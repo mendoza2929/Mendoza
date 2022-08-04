@@ -61,7 +61,7 @@ const Quali = () => {
                 </div>
                 <div className="quali_data">
                     <div>
-                        <h3 className='quali_title'>Web Development</h3>
+                        <h3 className='quali_title'>SoftWare Engineer</h3>
                         <span className="qauli_subtitle">ICS Institute</span>
                         <div className="quali_calendar">
                             <AiFillCalendar/>
@@ -99,7 +99,7 @@ const Quali = () => {
             <div className="quali_content" data-content id='work'>
                 <div className="quali_data">
                     <div>
-                        <h3 className='quali_title'>Software Engineer</h3>
+                        <h3 className='quali_title'>UI Designer</h3>
                         <span className="qauli_subtitle">ICS institute</span>
                         <div className="quali_calendar">
                             <AiFillCalendar/>
@@ -127,22 +127,26 @@ const Quali = () => {
                             2022-2023
                         </div>
                     </div>
+                    
                 </div>
+                
                 <div className="quali_data">
                     <div>
-                        <h3 className='quali_title'>UI Designer</h3>
-                        <span className="qauli_subtitle">Amtech Dev Inc.</span>
+                        <h3 className='quali_title'>KodeGo</h3>
+                        <span className="qauli_subtitle">Bootcamp</span>
                         <div className="quali_calendar">
                             <AiFillCalendar/>
-                            2021-2022
+                            2022
                         </div>
                     </div>
+                    
 
                     <div>
                         <span className="quali_rounder"></span>
                         {/* <span className="quali_line"></span> */}
                     </div>
                 </div>    
+                
             </div>
         </div>
     </div>

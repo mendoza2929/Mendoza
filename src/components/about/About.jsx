@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/riyuuu.jpg'
+import ME from '../../assets/logo.png'
 import {FaAward} from 'react-icons/fa'
 import {BiUserPin} from 'react-icons/bi'
 import {AiFillFolderOpen} from 'react-icons/ai'
@@ -35,11 +35,11 @@ const About = () => {
           <article className='about_card'>
           <AiFillFolderOpen className='about_icon'/>
           <h5>Projects</h5>
-          <small>4 Completed</small>
+          <small>6 Completed</small>
           </article>
         </div>
 
-        <p>Hello! I'm Reuel Mendoza, and I work as a web developer. Everything from tiny business websites to rich interactive apps appeals to me. You can contact me here if you are a company looking for an online presence or an employer looking to hire. My area of expertise is responsive design. I strive to make the web a beautiful place with every line of code I write.
+        <p>Hello! I'm Reuel Mendoza, and I work as a web developer. Everything from tiny business websites to rich interactive apps appeals to me. You can contact me here if you are a company looking for an online presence or an employer looking to hire. My area of expertise is web design and responsive design. I strive to make the web a beautiful place with every line of code I write.
         </p>
 
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>

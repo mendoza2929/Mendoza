@@ -4,6 +4,8 @@ import Proj1 from '../../assets/proj1.jpg'
 import Proj2 from '../../assets/proj2.png'
 import Proj3 from '../../assets/proj3.png'
 import Proj4 from '../../assets/proj4.png'
+import Proj5 from '../.././assets/dotDesign.jpg'
+import Proj6 from '../../assets/outplace.jpg'
 
 const data = [
   {
@@ -36,6 +38,22 @@ const data = [
     title:'KLC HOMES',
     github:'https://github.com/mendoza2929/',
     demo: 'https://dribbble.com/shots/18503300-KLC-HOMES'
+
+  },
+  {
+    id:5,
+    img:Proj5,
+    title:'dotDesign',
+    github:'https://github.com/Jessy-G26/dotDesign.git',
+    demo: 'https://dribbble.com/shots/18970007-dotDesign'
+
+  },
+   {
+    id:6,
+    img:Proj6,
+    title:'Outplace',
+    github:'https://github.com/mendoza2929/booking.git',
+    demo: 'https://dribbble.com/shots/18970069-Outplace-capstone-project'
 
   }
 ]
